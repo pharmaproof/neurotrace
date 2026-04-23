@@ -1,0 +1,89 @@
+{
+  "User A \u2014 Healthy": {
+    "pd_risk": 14.4,
+    "mci_risk": 7.6,
+    "classification": "Healthy Baseline",
+    "color": "#2ECC71",
+    "recommendation": "No significant anomalies detected. Continue annual screening.",
+    "top_features": [
+      {
+        "feature": "ht_skew",
+        "shap": -0.5478081107139587,
+        "magnitude": 0.5478081107139587,
+        "direction": "decreases"
+      },
+      {
+        "feature": "ft_dwt_L0_std",
+        "shap": 0.54136723279953,
+        "magnitude": 0.54136723279953,
+        "direction": "increases"
+      },
+      {
+        "feature": "ht_dwt_L0_energy",
+        "shap": -0.49655741453170776,
+        "magnitude": 0.49655741453170776,
+        "direction": "decreases"
+      }
+    ]
+  },
+  "User B \u2014 PD Profile": {
+    "pd_risk": 94.5,
+    "mci_risk": 18.0,
+    "classification": "Motor Signal Anomaly",
+    "color": "#E67E22",
+    "recommendation": "Motor signal anomaly detected. Recommend movement disorder specialist referral.",
+    "top_features": [
+      {
+        "feature": "ft_dwt_L0_energy",
+        "shap": 0.6708106398582458,
+        "magnitude": 0.6708106398582458,
+        "direction": "increases"
+      },
+      {
+        "feature": "ht_dwt_L2_energy",
+        "shap": 0.5700216293334961,
+        "magnitude": 0.5700216293334961,
+        "direction": "increases"
+      },
+      {
+        "feature": "ft_dwt_L0_std",
+        "shap": 0.5103948712348938,
+        "magnitude": 0.5103948712348938,
+        "direction": "increases"
+      }
+    ]
+  },
+  "User C \u2014 MCI Profile": {
+    "pd_risk": 15.0,
+    "mci_risk": 99.7,
+    "classification": "Handwriting Signal Anomaly (AD)",
+    "color": "#E74C3C",
+    "recommendation": "Handwriting motor anomaly detected consistent with Alzheimer's. Recommend cognitive screening.",
+    "top_features": [
+      {
+        "feature": "total_time23",
+        "shap": 1.0116159915924072,
+        "magnitude": 1.0116159915924072,
+        "direction": "increases"
+      },
+      {
+        "feature": "air_time17",
+        "shap": 0.6337798833847046,
+        "magnitude": 0.6337798833847046,
+        "direction": "increases"
+      },
+      {
+        "feature": "total_time17",
+        "shap": 0.3570379912853241,
+        "magnitude": 0.3570379912853241,
+        "direction": "increases"
+      },
+      {
+        "feature": "disp_index22",
+        "shap": 0.24133232235908508,
+        "magnitude": 0.24133232235908508,
+        "direction": "increases"
+      }
+    ]
+  }
+}
