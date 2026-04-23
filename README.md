@@ -102,3 +102,4 @@ Speech/Text ────→ Linguistic Feats → MCI Stream (XGBoost) ──→ 
 
 ## Disclaimer
 NeuroTrace is a research prototype and screening tool. It is **not a medical device** and outputs should not replace clinical diagnosis. All predictions include a confidence interval and are intended to prompt — not replace — clinical assessment.
+# neurotrace_private
